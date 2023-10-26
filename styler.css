@@ -1,0 +1,192 @@
+.html, body {
+    padding: 0;
+    margin: 0;
+    font-family: open sans;
+}
+h1, h2, h3, h4, h5, h6 {
+    padding: 0;
+    margin: 0;
+}
+.p {
+    padding: 0;
+    margin: 0;
+}
+/*header*/
+.header {
+    height: 100px;
+    width: 100%;
+    background: #a20908;
+    position: fixed;
+    top: 0;
+}
+
+.h-left {
+    background: #a20908;
+    width: 50%;
+    float: left;
+    height: 100%;
+}
+
+.logo {
+    width: 70%;
+    height: 100%;
+    background: url('./images/pizzalogo.jpg');
+    background-size: cover;
+    background-position: center center;
+    padding-left: 20px;
+}
+
+.h-right {
+    background: #a20908;
+    width: 50%;
+    height: 100%;
+    float: right;
+    text-align: right;
+}
+
+.h-right button {
+    font-size: 40px;
+    border: unset;
+    background: unset;
+    margin-top: 30px;
+    color: white;
+    margin-right: 15px;
+}
+/*menu*/
+.nav {
+    width: 100%;
+    position: absolute;
+    top: 100px;
+    display: none;
+}
+.nav a {
+    display: block;
+    text-decoration: none;
+    background-color: #a20908;
+    color: white;
+    font-size: 20px;
+    padding: 12px;
+    border-bottom: solid white;
+}
+.nav a i {
+    float: right;
+}
+/*menu end*/
+/*header end*/
+/*top section*/
+.top-section {
+    background: url('./images/pizza-oven.jpg');
+    min-height: 500px;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    padding: 30px;
+    box-sizing: border-box;
+    margin-top: 75px;
+
+}
+.top-section h1 {
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    font-size: 40px;
+    margin-top: 100px;
+}
+.top-section button, #order-form button {
+    background-color: #a20908;
+    border: 1px solid white;
+    font-size: 20px;
+    padding: 5px 18px;
+    color: white;
+    margin-top: 30px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px black;
+}   
+/*top section end*/
+/*best offer*/
+.best-offer {
+    padding: 20px;
+}
+.best-offer h2 {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.best-offer-box {
+    text-align: center;
+    margin-top: 20px;
+}
+.best-offer-box img {
+    width: 65%;
+}
+.best-offer-box .h5 {
+    margin: 8px auto;
+}
+.best-offer-box .products {
+    font-size: 12px;
+    margin: 8px auto;
+}
+.best-offer-box .price {
+    color: #a20908;
+    font-weight: bold;
+    margin: 8px auto;
+}
+/*best offer end*/
+/*order section*/
+.order-section {
+    text-align: center;
+    min-height: 500px;
+    background: url('./images/pizza1.jpg');
+    background-position: top center center;
+    background-size: cover;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.order-small {
+    color: white;
+    font-weight: 700;
+    text-shadow: 1px 1px 1px black;
+}
+.tel-big {
+    color: white;
+    font-weight: 700;
+    text-shadow: 1px 1px 1px black;
+    font-size: 30px;
+}
+#order-form * {
+    display: block;
+    margin: 10px auto;
+}
+#order-form input, #order-form textarea {
+    border: 3px solid #a20908;
+    width: 90%;
+    min-height: 25px;
+}
+/*order section end*/
+/*contact*/
+.contact {
+    background-color: #a20908;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    border-bottom: 1px solid white;
+}
+.bold {
+    font-weight: 700;
+}
+/*contact end*/
+/*footer icons*/
+.footer-icons {
+    background-color: #a20908;
+    text-align: center;
+    padding: 15px;
+}
+.footer-icons a {
+    text-decoration: none;
+    color: white;
+    font-size: 35px;
+    margin-right: 15px;
+}
+
+/*footer icons end*/

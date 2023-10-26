@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: comic sans ms;
+}
+.img {
+    width: 100%;
+}
+.clear-fix {
+    clear: both;
+}
+/*MENU*/
+.menu ul {
+    width: 320px;
+    margin: 0 0 0 auto;
+    padding: 10px;
+}
+.menu, .header {
+    background: url('/images/4.jpg');
+}
+.main-btn {
+    border: 1px solid white;
+    background: unset;
+    color: white;
+    padding: 8px 24px;
+    font-size: 12px;
+}
+.main-btn:hover {
+    background: white;
+    color: purple;
+    cursor: pointer;
+}
+.menu ul li a {
+    color: white;
+    text-decoration: none;
+}
+.menu ul li {
+    display: inline-block;
+    margin-left: 16px;
+}
+/*MENU END*/
+/*HEADER*/
+.header-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 80px;
+}
+.h-left, .h-right {
+    width: 40%;
+    float: left;
+}
+.h-left {
+    color: white;
+}
+.h-left h1 {
+    font-size: 50px;
+    margin-bottom: 16px;
+}
+.h-left p {
+    margin-bottom: 16px;
+}
+/*INFO*/
+.info-container, .our-products-container {
+    width: 70%;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+.box {
+    border: 1px solid #48ca95;
+    width: 30%;
+    float: left;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+}
+.box:nth-child(2) {
+    margin: 0 5%;
+}
+.box i {
+    font-size: 50px;
+    color: #48ca95;
+}
+.box h3 {
+    margin: 10px 0;
+}
+.box p {
+    font-size: 12px;
+    font-weight: bold;
+}
+/*INFO END*/
+/*OUR PRODUCTS*/
+.our-products {
+    background: #f7f7f7;
+}
+.op-box {
+    width: 30%;
+    float: left;
+}
+
+/*OUR PRODUCTS END*/

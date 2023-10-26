@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ресторант "Дизайн"</title>
+    <link rel="stylesheet" href="styler.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="header">
+        <div class="h-left">
+            <div class="logo"></div>
+        </div>
+        <div class="h-right">
+            <button onclick="toggle()">
+                <i class="fa fa-bars"></i>
+            </button>
+        </div>
+        <div class="nav" id="nav">
+            <a href="">
+                <span>НАЧАЛО</span>
+                <i class="fa-solid fa-caret-right"></i>
+            </a>
+            <a href="">
+                <span>МЕНЮ</span>
+                <i class="fa-solid fa-caret-right"></i>
+            </a>
+            <a href="">
+                <span>РЕЗЕРВАЦИИ</span>
+                <i class="fa-solid fa-caret-right"></i>
+            </a>
+            <a href="">
+                <span>ЗА НАС</span>
+                <i class="fa-solid fa-caret-right"></i>
+            </a>
+            <a href="">
+                <span>КОНТАКТИ</span>
+                <i class="fa-solid fa-caret-right"></i>
+            </a>
+        </div>
+    </div>
+    <div class="top-section">
+        <h1>Ресторант "Дизайн"</h1>
+        <button>Поръчай</button>
+    </div>
+    <div class="best-offer">
+        <h2>Някои от нашите най-добри пици</h2>
+        <div class="best-offer-box">
+            <img src="images/pizza1.jpg" alt="">
+            <h5>Пица Алекс</h5>
+            <div class="products">моцарела, прошуто, печени чушки, </br>маслини, гъби</div>
+            <div class="price">12.00 лв</div>
+        </div>
+        <div class="best-offer-box">
+            <img src="images/pizza2.jpg" alt="">
+            <h5>Пица Маргарита</h5>
+            <div class="products">моцарела, прошуто, печени чушки, </br>маслини, гъби</div>
+            <div class="price">12.00 лв</div>
+        </div>
+        <div class="best-offer-box">
+            <img src="images/pizza3.jpg" alt="">
+            <h5>Пица Калцоне</h5>
+            <div class="products">моцарела, прошуто, печени чушки, </br>маслини, гъби</div>
+            <div class="price">12.00 лв</div>
+        </div>
+        <div class="best-offer-box">
+            <img src="images/pizza4.jpg" alt="">
+            <h5>Пица Прошуто</h5>
+            <div class="products">моцарела, прошуто, печени чушки, </br>маслини, гъби</div>
+            <div class="price">12.00 лв</div>
+    </div>
+    <div class="order-section">
+        <p class="order-small">Поръчай за вкъщи</p>
+        <p class="tel-big">0888 888 888</p>
+        <p class="order-small">Или</p>
+        <form action="" id="order-form">
+            <input type="text" placeholder="Име">
+            <input type="text" placeholder="Телефон">
+            <input type="text" placeholder="Адрес">
+            <textarea rows="10" placeholder="Поръчка"></textarea>
+            <button>ПОРЪЧАЙ</button>
+        </form>
+    </div>
+    <div class="contact">
+        <p class="bold">Адрес:</p>
+        <p>ул. Фантазия 75</p>
+        <p>гр. Пловдив</p>
+        <p class="bold">Работно време:</p>
+        <p>Понеделник до Неделя</p>
+        <p>от 9:00 до 21:00</p>
+    </div>
+    <div class="footer-icons">
+        <a href="" target="_blank">
+            <i class="fa-brands fa-facebook"></i>
+        </a>
+        <a href="" target="_blank">
+            <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="" target="_blank">
+            <i class="fa-brands fa-tiktok"></i>
+        </a>
+    </div>
+    <script>
+        function toggle() {
+            var nav = document.getElementById('nav');
+            if(nav.style.display == 'block') {
+                nav.style.display = 'none'
+            }
+            else {
+                nav.style.display = 'block'
+            }
+
+        }
+    </script>
+</body>
+</html>

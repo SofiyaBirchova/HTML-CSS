@@ -1,0 +1,288 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.img {
+    width: 100%;
+}
+.clear-fix {
+    clear: both;
+}
+/*MENU*/
+.menu {
+    padding: 10px;
+}
+.menu ul {
+    width: 420px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #0d0e0f72;
+    border: 1px solid #0d0e0f72;
+    border-radius: 20px;
+}
+.menu ul li a {
+    color: white;
+    text-decoration: none;
+}
+.menu ul li {
+    display: inline-block;
+    margin-left: 16px;
+}
+/*MENU END*/
+/*HEADER*/
+.header {
+    background: url('images/exam/header.jpg');
+    min-height: 700px;
+    background-size: cover;
+    background-position: center center;
+}
+.header-box {
+    padding: 40px;
+    background: #0d0e0f72;
+    width: 80%;
+    margin: 10% 10%;
+    margin-top: 150px;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header-box h1 {
+    color: white;
+    font-size: 60px;
+    text-shadow: 1px 1px 1px black;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+.header-box p {
+    color: white;
+    font-size: 21px;
+    padding-bottom: 15px;
+    font-weight: bold;
+    font-style: italic;
+    text-shadow: 1px 1px 1px black;
+}
+.header-box button {
+    font-size: 15px;
+    background: #198754;
+    margin-top: 20px;
+    color: white;
+    margin-right: 15px;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+/*HEADER END*/
+/*PHRASES*/
+.phrases {
+    background: white;
+    min-height: 150px;
+    margin: 120px 120px;
+    text-align: center;
+}
+.phrases h2 {
+    color: #198754;
+    font-size: 30px;
+    text-shadow: 1px 1px 1px black;
+    padding-bottom: 10px;
+}
+.phrases p {
+    font-size: 20px;
+    color: #808080;
+    padding-bottom: 30px;
+}
+.phrases button {
+    font-size: 16px;
+    background: #198754;
+    margin-top: 20px;
+    color: white;
+    margin-right: 15px;
+    padding: 15px 15px;
+    border-radius: 5px;
+}
+/*PHRASES END*/
+/*OUR GOALS*/
+.our-goals {
+    background: #198754;
+    min-height: 400px;
+}
+.our-goals, h2, h3 {
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+}
+.our-goals, h3 {
+    font-size: 16px;
+    padding-top: 50px;
+
+}
+.our-goals, h2 {
+    font-size: 30px;    
+    padding-top: 10px;
+}
+.box-icons {
+    width: 80%;
+    float: right;
+    text-align: center;
+    padding: 10px;
+
+}
+.box {
+    float: left;
+    padding: 10px;
+    margin: 50px 20px;
+    text-align: center;
+}
+
+.box i {
+    font-size: 25px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 50px;
+    padding: 30px;
+}
+.box h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 16px;
+}
+
+/*OUR GOALS END*/
+/*SIGN IN*/
+.sign-in {
+    background: url('/images/exam/beachh.jpg');
+    min-height: 400px;
+    width: 100%;
+    background-size: cover;
+    background-position: center bottom;
+}
+.sign-in-box {
+    text-align: center;
+
+}
+.sign-in h2 {
+    font-size: 50px;
+    padding-top: 120px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 1px 1px 1px black;
+}
+.sign-in button {
+    font-size: 16px;
+    background: #198754;
+    margin-top: 40px;
+    color: white;
+    margin-right: 15px;
+    padding: 15px 15px;
+    border-radius: 5px;
+}
+/*SIGN IN END*/
+/*ACTIVITY*/
+.activity {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+.activity h2 {
+    font-size: 30px;
+    color: #198754;
+    text-shadow: 1px 1px 1px black;
+    text-align: center;
+}
+.activity-box {
+    min-height: 900px;
+    margin: 0 auto;
+    padding: 40px 0;
+    width: 80%;
+    padding: 50px 50px;
+}
+.activity-box1 {
+    background: url('/images/exam/1.jpg');
+    background-size: cover;
+    background-position: center center;
+    width: 50%;
+    height: 400px;
+    float: left;
+}
+.activity-box2 {
+    background: url('/images/exam/2.jpg');
+    width: 50%;
+    height: 400px;
+    float: right;
+    background-size: cover;
+    background-position: center center;
+    
+}
+.activity-box3 {
+    background: url('/images/exam/3.jpg');
+    float: left;
+    background-size: cover;
+    background-position: center center;
+    height: 400px;
+    width: 50%;
+}
+.activity-box4 {
+    background: url('/images/exam/4.jpg');
+    float: right;
+    width: 50%;
+    background-size: cover;
+    background-position: center center;
+    height: 400px;
+}
+.activity-box h2 {
+    text-align: left;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 300px;
+    padding-bottom: 6px;
+    padding-left: 40px;
+    font-size: 13px;
+}
+.activity-box p {
+    padding-left: 40px;
+    color: white;
+    font-size: 18px;
+}
+
+/*ACTIVITY END*/
+/*HELP*/
+.help {
+    background: #198754;
+    min-height: 300px;
+    text-align: center;
+}
+.help h2 {
+    padding-top: 100px;
+}
+.help button {
+    font-size: 12px;
+    background: white;
+    margin-top: 40px;
+    color: #198754;
+    margin-right: 15px;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+/*HELP END*/
+/*ICONS*/
+.footer-icons {
+    background: white;
+    min-height: 100px;
+    text-align: center;
+    padding: 15px;
+}
+.footer-icons i {
+    text-decoration: none;
+    color: #198754;
+    font-size: 35px;
+    margin: 0 15px;
+    padding-top: 30px;
+}
+.footer-icons p {
+    color: #909090;
+    font-size: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    text-align: center;
+}
+/*ICONS END*/
